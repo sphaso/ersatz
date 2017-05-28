@@ -1,17 +1,7 @@
 # Ersatz
 
-**TODO: Add description**
+A simple SAT for fun and... fun
 
-## Installation
+At its current state the code is a translation into Elixir from (Andrew Gibiansky excellent post)[http://andrew.gibiansky.com/blog/verification/writing-a-sat-solver/)
 
-  1. Add ersatz to your list of dependencies in mix.exs:
-
-        def deps do
-          [{:ersatz, "~> 0.0.1"}]
-        end
-
-  2. Ensure ersatz is started before your application:
-
-        def application do
-          [applications: [:ersatz]]
-        end
+The idea of testing it on Quarto is from (Felienne talk)[https://www.slideshare.net/Felienne/a-board-game-night-with-geeks-attacking-quarto-ties-with-sat-solvers]
